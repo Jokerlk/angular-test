@@ -1,4 +1,59 @@
+#image_card {
+  width: 1cm;
+  height: 2cm;
+}
+@media (max-width: 767px) {
+  body * {
+    -webkit-tap-highlight-color: transparent;
+  }
 
+  img {
+    width: 3cm;
+  }
+  .row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+  }
+  .card-title {
+    padding: 20px 0 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #012970;
+    font-family: 'Poppins', sans-serif;
+  }
+  .card-title {
+    margin-bottom: 0.5rem;
+  }
+  .card-text:last-child {
+    margin-bottom: 0;
+  }
+  *,
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .rounded-start {
+    border-bottom-left-radius: 0.25rem !important;
+    border-top-left-radius: 0.25rem !important;
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.
