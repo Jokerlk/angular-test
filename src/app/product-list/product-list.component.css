@@ -2,7 +2,7 @@
   width: 1cm;
   height: 2cm;
 }
-@media (max-width: 767px) {
+@media (max-width: 423 px) {
   body * {
     -webkit-tap-highlight-color: transparent;
   }
